@@ -128,8 +128,8 @@ fBodyGyroMag-std()|frequency-series magnitude of the angular velocity vector mea
 fBodyGyroJerkMag-std()|frequency-series magnitude of the angular velocity vector measured by the gyroscope for each window sample, with jerk, std| units: radians/second|
 
 ## Sources:
-
-Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
+ * [Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#)
+ * Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
 DITEN - UniversitÃ  degli Studi di Genova, Genoa I-16145, Italy.
 activityrecognition '@' smartlab.ws
