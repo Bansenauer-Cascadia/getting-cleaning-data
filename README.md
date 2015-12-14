@@ -1,7 +1,11 @@
 # Getting &amp; Cleaning Data Project
 ## Coursera Data Science course work
 
-The goal of the project is to produce a tidy data set containing the average values of certain measurements (mean and standard dev) based on the subject and the subject's activity during those measurements. Each observation in the original data sets (X_train.txt, X_test.txt) corresponds with a particular *subject* and *activity number* as designated by the corresponding row in the subject.txt and y.txt files respectively. The names of the activities are indexed in the activity_labels.txt file. The names of the variables for each data set are included in the features.txt file. (NB: Several feature names in the original data set include a duplication mistake).
+The goal of the project is to produce a tidy data set containing the average values of certain measurements (mean and standard dev) based on the subject and the subject's activity during those measurements. Each observation in the original data sets (X_train.txt, X_test.txt) corresponds with a particular *subject* and *activity number* as designated by the corresponding row in the subject.txt and y.txt files respectively.
+
+The names of the activities are indexed in the activity_labels.txt file. The names of the variables for each data set are included in the features.txt file. (NB: Several feature names in the original data set include a duplication mistake).
+
+See the [Code book](https://github.com/Bansenauer-Cascadia/getting-cleaning-data/blob/master/CodeBook.md) for more details on original data set and final variables.
 
 ### Instruction List description
 
