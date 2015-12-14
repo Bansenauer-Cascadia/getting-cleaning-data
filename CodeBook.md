@@ -28,7 +28,7 @@ For this project:
   4. Appropriately labels the data set with descriptive variable names.
   5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-See my [Readme file](https://github.com/Bansenauer-Cascadia/getting-cleaning-data/README.md) for more information.
+See my [README.md file](https://github.com/Bansenauer-Cascadia/getting-cleaning-data/blob/master/README.md) for more information.
 
 ## Code Book
 ### Variables and units (in parenthesis)
