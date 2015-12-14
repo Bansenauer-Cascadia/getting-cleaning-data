@@ -21,7 +21,7 @@ y.dt <- rbind(y_train.dt,y_test.dt)
 subject.dt <- rbind(subject_train.dt,subject_test.dt)
 rm(X_train.dt,X_test.dt,subject_train.dt,y_train.dt,y_test.dt,subject_test.dt)
 ##########
-#Label the data set with descriptive variable names. 
+#Label the data set with descriptive variable names.
 setnames(X.dt,features.dt$V2)
 rm(features.dt)
 ##########
@@ -35,7 +35,7 @@ X.dt <- select(X.dt,contains("-mean()"), contains("-std()"))
 #y.dt[,id:= 1:10299]
 #setkey(y.dt,V1);setkey(activities.dt,V1)
 #activity.dt <- y.dt %>%
-#  merge(activities.dt) %>% 
+#  merge(activities.dt) %>%
 #  arrange(id)
 #
 # Instead, found the plyr "join" method that does not sort by the key
@@ -43,13 +43,13 @@ activity.dt <- join(y.dt,activities.dt)
 X.dt[,activity:=activity.dt$V2]
 rm(y.dt,activity.dt,activities.dt)
 ##########
-#Create a second data set with the average of each variable 
+#Create a second data set with the average of each variable
 # for each activity and each subject.
-#  (need to add the subject column), 
+#  (need to add the subject column),
 #    then group, summarise by mean, and arrange by subject and activity
- average.dt <- X.dt[,subject:=subject.dt] %>% 
+ tidy_dataset.dt <- X.dt[,subject:=subject.dt] %>%
                 group_by(subject, activity) %>%
-                summarise_each(funs(mean)) %>% 
+                summarise_each(funs(mean)) %>%
                 arrange(subject,activity)
 rm(subject.dt)
-View(average.dt)
+View(tidy_dataset.dt)
