@@ -70,14 +70,14 @@ tBodyAccJerk-mean()-Z|time-series gravity acceleration w/jerk signal obtained by
 tBodyGyro-mean()-X|time-series angular velocity vector measured by the gyroscope for each window sample, mean, X axis| units: radians/second|
 tBodyGyro-mean()-Y|time-series angular velocity vector measured by the gyroscope for each window sample, mean, Y axis| units: radians/second|
 tBodyGyro-mean()-Z|time-series angular velocity vector measured by the gyroscope for each window sample, mean, Z axis| units: radians/second|
-tBodyGyroJerk-mean()-X|time-series angular velocity vector measured by the gyroscope for each window sample, with jerk, mean, X axis| units: radians/second|
-tBodyGyroJerk-mean()-Y|time-series angular velocity vector measured by the gyroscope for each window sample, with jerk, mean, Y axis| units: radians/second|
-tBodyGyroJerk-mean()-Z|time-series angular velocity vector measured by the gyroscope for each window sample, with jerk, mean, Z axis| units: radians/second|
+tBodyGyroJerk-mean()-X|time-series angular velocity vector measured by the gyroscope for each window sample, with jerk, mean, X axis| units: radians/second squared|
+tBodyGyroJerk-mean()-Y|time-series angular velocity vector measured by the gyroscope for each window sample, with jerk, mean, Y axis| units: radians/second squared|
+tBodyGyroJerk-mean()-Z|time-series angular velocity vector measured by the gyroscope for each window sample, with jerk, mean, Z axis| units: radians/second squared|
 tBodyAccMag-mean()|time-series magnitude of the body acceleration vector obtained by subtracting the gravity from the total acceleration, mean | standard acceleration units “m/s^2”|
 tGravityAccMag-mean()|time-series magnitude of the gravity acceleration vector, mean | standard acceleration units “m/s^2”|
 tBodyAccJerkMag-mean()|time-series magnitude of the gravity acceleration w/jerk vector, mean, | standard acceleration units “m/s^2”|
 tBodyGyroMag-mean()|time-series magnitude of the angular velocity vector measured by the gyroscope for each window sample, mean| units: radians/second|
-tBodyGyroJerkMag-mean()|time-series magnitude of the angular velocity vector measured by the gyroscope for each window sample, with jerk, mean| units: radians/second|
+tBodyGyroJerkMag-mean()|time-series magnitude of the angular velocity vector measured by the gyroscope for each window sample, with jerk, mean| units: radians/second squared|
 fBodyAcc-mean()-X|frequency-series body acceleration signal obtained by subtracting the gravity from the total acceleration, mean X axis| standard acceleration units “m/s^2”|
 fBodyAcc-mean()-Y|frequency-series body acceleration signal obtained by subtracting the gravity from the total acceleration, mean Y axis| standard acceleration units “m/s^2”|
 fBodyAcc-mean()-Z|frequency-series body acceleration signal obtained by subtracting the gravity from the total acceleration, mean Z axis| standard acceleration units “m/s^2”|
@@ -91,7 +91,7 @@ fBodyAccMag-mean()|frequency-series magnitude of the body acceleration vector ob
 fGravityAccMag-mean()|frequency-series magnitude of the gravity acceleration vector, mean | standard acceleration units “m/s^2”|
 fBodyAccJerkMag-mean()|frequency-series magnitude of the gravity acceleration w/jerk vector, mean, | standard acceleration units “m/s^2”|
 fBodyGyroMag-mean()|frequency-series magnitude of the angular velocity vector measured by the gyroscope for each window sample, mean| units: radians/second|
-fBodyGyroJerkMag-mean()|frequency-series magnitude of the angular velocity vector measured by the gyroscope for each window sample, with jerk, mean| units: radians/second|
+fBodyGyroJerkMag-mean()|frequency-series magnitude of the angular velocity vector measured by the gyroscope for each window sample, with jerk, mean| units: radians/second squared|
 tBodyAcc-std()-X|time-series body acceleration signal obtained by subtracting the gravity from the total acceleration, standard deviation, X axis| standard acceleration units “m/s^2”|
 tBodyAcc-std()-Y|time-series body acceleration signal obtained by subtracting the gravity from the total acceleration, standard deviation, Y axis| standard acceleration units “m/s^2”|
 tBodyAcc-std()-Z|time-series body acceleration signal obtained by subtracting the gravity from the total acceleration, standard deviation, Z axis| standard acceleration units “m/s^2”|
@@ -104,14 +104,14 @@ tBodyAccJerk-std()-Z|time-series gravity acceleration w/jerk signal obtained by 
 tBodyGyro-std()-X|time-series angular velocity vector measured by the gyroscope for each window sample, standard deviation, X axis| units: radians/second|
 tBodyGyro-std()-Y|time-series angular velocity vector measured by the gyroscope for each window sample, standard deviation, Y axis| units: radians/second|
 tBodyGyro-std()-Z|time-series angular velocity vector measured by the gyroscope for each window sample, standard deviation, Y axis| units: radians/second|
-tBodyGyroJerk-std()-X|time-series angular velocity vector measured by the gyroscope for each window sample, with jerk, standard deviation, X axis| units: radians/second|
-tBodyGyroJerk-std()-Y|time-series angular velocity vector measured by the gyroscope for each window sample, with jerk, standard deviation, Y axis| units: radians/second|
-tBodyGyroJerk-std()-Z|time-series angular velocity vector measured by the gyroscope for each window sample, with jerk, standard deviation, Z axis| units: radians/second|
+tBodyGyroJerk-std()-X|time-series angular velocity vector measured by the gyroscope for each window sample, with jerk, standard deviation, X axis| units: radians/second squared|
+tBodyGyroJerk-std()-Y|time-series angular velocity vector measured by the gyroscope for each window sample, with jerk, standard deviation, Y axis| units: radians/second squared|
+tBodyGyroJerk-std()-Z|time-series angular velocity vector measured by the gyroscope for each window sample, with jerk, standard deviation, Z axis| units: radians/second squared|
 tBodyAccMag-std()|time-series magnitude of the body acceleration vector obtained by subtracting the gravity from the total acceleration, mean | standard acceleration units “m/s^2”|
 tGravityAccMag-std()|time-series magnitude of the gravity acceleration vector, mean | standard acceleration units “m/s^2”|
 tBodyAccJerkMag-std()|time-series magnitude of the gravity acceleration w/jerk vector, mean, | standard acceleration units “m/s^2”|
 tBodyGyroMag-std()|time-series magnitude of the angular velocity vector measured by the gyroscope for each window sample, mean| units: radians/second|
-tBodyGyroJerkMag-std()|time-series magnitude of the angular velocity vector measured by the gyroscope for each window sample, with jerk, mean| units: radians/second|
+tBodyGyroJerkMag-std()|time-series magnitude of the angular velocity vector measured by the gyroscope for each window sample, with jerk, mean| units: radians/second squared|
 fBodyAcc-std()-X|frequency-series body acceleration signal obtained by subtracting the gravity from the total acceleration, std X axis| standard acceleration units “m/s^2”|
 fBodyAcc-std()-Y|frequency-series body acceleration signal obtained by subtracting the gravity from the total acceleration, std Y axis| standard acceleration units “m/s^2”|
 fBodyAcc-std()-Z|frequency-series body acceleration signal obtained by subtracting the gravity from the total acceleration, std Z axis| standard acceleration units “m/s^2”|
@@ -125,7 +125,7 @@ fBodyAccMag-std()|frequency-series magnitude of the body acceleration vector obt
 fGravityAccMag-std()|frequency-series magnitude of the gravity acceleration vector, std | standard acceleration units “m/s^2”|
 fBodyAccJerkMag-std()|frequency-series magnitude of the gravity acceleration w/jerk vector, std, | standard acceleration units “m/s^2”|
 fBodyGyroMag-std()|frequency-series magnitude of the angular velocity vector measured by the gyroscope for each window sample, std| units: radians/second|
-fBodyGyroJerkMag-std()|frequency-series magnitude of the angular velocity vector measured by the gyroscope for each window sample, with jerk, std| units: radians/second|
+fBodyGyroJerkMag-std()|frequency-series magnitude of the angular velocity vector measured by the gyroscope for each window sample, with jerk, std| units: radians/second squared|
 
 ## Sources:
  * [Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#)
