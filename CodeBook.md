@@ -39,20 +39,20 @@ See my [Readme file](https://github.com/Bansenauer-Cascadia/getting-cleaning-dat
  * tBodyAcc-XYZ (m/s^2)
  * tGravityAcc-XYZ (m/s^2)
  * tBodyAccJerk-XYZ (m/s^3)
- * tBodyGyro-XYZ (m/s^2)
- * tBodyGyroJerk-XYZ (m/s^3)
+ * tBodyGyro-XYZ (rad/s)
+ * tBodyGyroJerk-XYZ (rad/s^2)
  * tBodyAccMag (m/s^2)
  * tGravityAccMag (m/s^2)
  * tBodyAccJerkMag (m/s^3)
- * tBodyGyroMag (m/s^2)
- * tBodyGyroJerkMag
+ * tBodyGyroMag (rad/s)
+ * tBodyGyroJerkMag (rad/s^2)
  * fBodyAcc-XYZ (m/s^2)
  * fBodyAccJerk-XYZ (m/s^3)
- * fBodyGyro-XYZ (m/s^2)
+ * fBodyGyro-XYZ (rad/s)
  * fBodyAccMag (m/s^2)
  * fBodyAccJerkMag (m/s^3)
- * fBodyGyroMag
- * fBodyGyroJerkMag
+ * fBodyGyroMag (rad/s)
+ * fBodyGyroJerkMag (rad/s^2)
 
 |Var Name|Definition|Comments/Units|
 |--------|----------|--------------|
