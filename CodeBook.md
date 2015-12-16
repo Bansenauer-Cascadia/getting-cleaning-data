@@ -1,6 +1,6 @@
 # Code Book
 ## Abstract
- Dataset generated from the Human Activity Recognition database using the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors
+ Dataset generated from the Human Activity Recognition database using the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors is used to create a tidy data set containing values of certain measurements (mean and standard dev measurements) averaged by individual subjects' activity.
 
 ## Study Design
 
